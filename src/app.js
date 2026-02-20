@@ -18,7 +18,7 @@ let randomAction = action [Math.floor(Math.random() * action.length)];
 let randomWhat = what [Math.floor(Math.random() * what.length)];
 let randomWhen = when [Math.floor(Math.random() * when.length)];
 
-let excusa = randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen + "."
+let excusa = randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen + ".";
 
-let generadorDeExcusas= document.getElementById("mentira").innerHTML = excusa
+ document.getElementById("mentira").innerHTML = excusa;
 }
